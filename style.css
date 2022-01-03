@@ -38,7 +38,7 @@ nav {
     top: 0;
     background: #FFFFFF;
     z-index: 1;
-    border-bottom: 2px solid #402218;
+    border-bottom: 5px solid #402218;
 }
 
 nav ul {
@@ -67,12 +67,12 @@ nav ul li a:hover {
 section {
     margin: auto;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .kolom {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .kolom .deskripsi {
@@ -86,12 +86,12 @@ section {
 
 h2 {
     font-family: 'comic sans ms';
-    font-weight: 800;
+    font-weight: 500;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #D7B19D;
     width: 100%;
-    line-height: 30px;
+    line-height: 20px;
     margin-left: 40px;
 }
 
@@ -100,6 +100,28 @@ p {
     font-size: 20px;
     margin-left: 40px;
     margin-bottom: 30px;
+}
+
+.freepik-1 figcaption {
+    font-family: 'comic sans ms';
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+}
+
+.freepik-1 img {
+    margin-top: 70px;
+}
+
+.freepik-2 figcaption {
+    font-family: 'comic sans ms';
+    font-weight: 300;
+    font-size: 15px;
+    text-align: right;
+}
+
+.freepik-2 img {
+    margin-top: 120px;
 }
 
 a.tbl-mud {
@@ -120,4 +142,54 @@ a.tbl-mud:hover {
 .tengah {
     text-align: center;
     width: 100%;
+}
+
+.work-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tempat-bekerja {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.tempat-bekerja img {
+    width: 80%;
+}
+
+.work-list figcaption {
+    font-family: 'comic sans ms';
+    font-weight: 300;
+    font-size: 11px;
+    text-align: center;
+    color: black;
+}
+
+.certificate-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certificate-list img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.my-certificates {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.certificate-list figcaption {
+    font-family: 'comic sans ms';
+    font-weight: 300;
+    font-size: 11px;
+    text-align: center;
+    color: black;
+    margin-bottom: 100px;
 }
