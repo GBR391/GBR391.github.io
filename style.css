@@ -17,8 +17,8 @@ body {
 }
 
 .logo a {
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: 700;
     float: left;
     font-family: courier;
     color: #402218;
@@ -67,7 +67,7 @@ nav ul li a:hover {
 section {
     margin: auto;
     display: flex;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .kolom {
@@ -81,24 +81,21 @@ section {
     font-family: 'comic sans ms';
     color: #C68B59;
     text-decoration: underline;
-    margin-left: 40px;
 }
 
 h2 {
     font-family: 'comic sans ms';
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: 400;
+    font-size: 35px;
     margin-bottom: 50px;
     color: #D7B19D;
     width: 100%;
     line-height: 20px;
-    margin-left: 40px;
 }
 
 p {
     font-family: 'comic sans ms';
     font-size: 20px;
-    margin-left: 40px;
     margin-bottom: 30px;
 }
 
@@ -160,6 +157,15 @@ a.tbl-mud:hover {
     width: 80%;
 }
 
+.tempat-bekerja-baru {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.tempat-bekerja-baru img {
+    width: 50%;
+}
+
 .work-list figcaption {
     font-family: 'comic sans ms';
     font-weight: 300;
@@ -192,4 +198,121 @@ a.tbl-mud:hover {
     text-align: center;
     color: black;
     margin-bottom: 100px;
+}
+
+#social_media {
+    background: #EADCA6;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h4 {
+    font-family: 'comic sans ms';
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #FF884B;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-section p {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 999.99px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .tempat-bekerja {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .tempat-bekerja img {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .tempat-bekerja-baru {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .tempat-bekerja-baru img {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .my-certificates {
+        width: 50%;
+    }
+
+    .my-certificates img {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .footer-section {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
 }
