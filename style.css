@@ -117,8 +117,7 @@ a.tbl-mud:hover {
     text-decoration: none;
 }
 
-.img-responsive {
+.tengah {
+    text-align: center;
     width: 100%;
-    display: block;
-    height: auto;
 }
