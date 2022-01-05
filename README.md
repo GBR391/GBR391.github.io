@@ -1,6 +1,6 @@
 2 Januari 2022</br>
 Ini adalah percobaan membuat web sederhana menggunakan HTML dan CSS</br>
-Web ini akan berfungsi sebagai media eksperimet dalam mempelajari bagaimana
+Web ini akan berfungsi sebagai media eksperiment dalam mempelajari bagaimana
 caranya membuat web</br>
 </br>
 File-file yang berada pada folder ini akan dijadikan repository dan akan diupload 
