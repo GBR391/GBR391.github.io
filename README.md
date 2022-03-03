@@ -10,3 +10,5 @@ selalu tersinkronisasi dengan remote dan local
 5 Januari 2022
 web sudah bisa diakses, akan tetapi masih banyak yg perlu diperbaiki untuk paragraphnya
 kemungkinan akan belajar juga bagaimana caranya untuk membuat webnya lebih atraktif
+test
+apakah ada yang akan berubah?
